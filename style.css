@@ -143,3 +143,20 @@ img{
    font-size: 20px;
     margin-left:auto ;
 }
+
+
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+label{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+   font-size: 20px;
+    
+}

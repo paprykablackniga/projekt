@@ -17,22 +17,23 @@
         <div class="container2">
         <img src="logo.png" alt="">
 
-            <div class="ballers">
-                <input type="text" name="" id="number1">
-                <div id="result"></div>
-             </div>
-                <button  class="button" class="lilita-one-regular" id="button1">Sprawdz czy dany zawodnik wystepuje w bazie po imieniu</button>
-                 <button  class="button"  id="getData">Wyswietl zawartosc bazy</button>
-                 <button   class="button"  id="postData">Schowaj zawrtosc bazy</button>
-                 <a href="dodawanie.php">
-                 <button    class="button"  id="addplayer">Dodaj / Usun zawodnika</button>
-                </a>
-    </div>
-        <div class="napis">Barcelona Legendary Players </div>
-    <div class="container-grid">
-        <div id="content">
+           
+      
         </div>
-    </div>
+        <div class="container3">
+        <table>
+        <form action="dodawanie.php" method="post" id="add">
+        <label>Imie</label><input type="text" name="names" value="" /><br />
+        <label>Nazwisko</label><input type="text" name="surname" value="" /><br />
+        <label>Link do zdjecia</label><input type="text" name="img" value="" /><br />
+        <label>Notatka</label><input type="text" name="note" value="" /><br />
+        <input type="submit" value="Dodaj"  class="button"/>
+
+
+
+        </form>
+        </table>
+        </div>
 
 <br>
 <br>
